@@ -42,7 +42,6 @@ To auto-fill login information, use the following **default** shortcuts:
 - On Windows: `Ctrl + Shift + L`
 - On macOS: `Cmd + Shift + L`
 - On Linux: `Ctrl + Shift + L`
-- Safari: `Cmd + \` or `Cmd + 8` or `Cmd + Shift + P`
 
 {% callout success %}
 If a login uses the [Bitwarden Authenticator]({% link _articles/features/authenticator-keys.md %}) for TOTPs, using the `Cmd/Ctrl + Shift + L` will automatically copy your TOTP to your clipboard after auto-filling. All you have to do is `Cmd/Ctrl + V` to paste!
@@ -59,7 +58,8 @@ Configuring the keyboard shortcuts used by a Bitwarden Browser Extension differs
    In Chromium-based browsers like **Brave**, substitute `chrome` for the relevant browser name (e.g. `brave://extensions/shortcuts`).
 - **In Firefox**, enter `about:addons` in the address bar, select the {% icon fa-cog %} **Gear** icon next to **Manage Your Extensions**, and select **Manage Extension Shortcuts** from the dropdown.
 
-Some browsers, including **Safari** and legacy **Edge** do not currently support changing the default keyboard shortcuts for extensions.
+Some browsers, including **
+** and legacy **Edge** do not currently support changing the default keyboard shortcuts for extensions.
 
 ## On Page Load
 
